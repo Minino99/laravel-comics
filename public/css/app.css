@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@400%3b700&display=swap);* {
+  font-family: "Asap Condensed", sans-serif !important;
+}
+
+.navbar {
+  height: 100px;
+}
+
+.navbar .navbar-brand {
+  height: 100%;
+}
+
+.navbar img {
+  height: 100%;
+}
+
+.navelements {
+  height: 100%;
+}
+
+.navelements .dcnavelement {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 5px transparent;
+  font-size: 0.9rem;
+}
+
+.navelements .dcnavelement:hover {
+  border-bottom: solid 5px #0081ef;
+}
+
+.navelements .dcnavelement:hover a {
+  color: #0081ef;
+}
+
+.navelements .dcnavelement a {
+  color: black;
+  text-decoration: none;
+}
+
+.footercontainer {
+  height: 360px;
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footercontainer .container {
+  height: 100%;
+}
+
+.footercontainer img {
+  position: relative;
+  transform: translateY(-20%);
+  text-align: center;
+}
+
+.footercontainer .of-hidden {
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.footercontainer .text {
+  color: #494949;
+  font-size: 0.8rem;
+}
+
+.footercontainer .title {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.bannersignupcontainer {
+  background-color: #282828;
+  height: 100px;
+}
+
+.signupbtn {
+  border-radius: 0 !important;
+  border: 2px solid #0081ef !important;
+  color: white !important;
+  font-size: 1.2rem !important;
+}
+
+.socialslink span {
+  color: #0081ef;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.jumbocontainer {
+  height: 400px;
+}
+
+.jumboimg {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.jumboimg img {
+  width: 100%;
+  transform: translateY(-15%);
+}
+
+.floatingbtn {
+  transform: translateY(-50%);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #0081EF;
+  border-color: #0081EF;
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.comicssection {
+  background-color: #101010;
+  min-height: 620px;
+}
+
+.squareimg {
+  width: 192px;
+  height: 192px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.squareimg:hover {
+  transform: scale(1.1);
+}
+
+.comicname {
+  color: white;
+  height: 48px;
+}
+
+.mybtn {
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 0;
+  background-color: #0081ef;
+}
+
+.bannerblue {
+  background-color: #0081ef;
+  color: white;
+  height: 180px;
+}
+
+.icon {
+  max-height: 50px;
+  max-width: 50px;
+}
+
